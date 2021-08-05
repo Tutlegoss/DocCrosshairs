@@ -1,0 +1,20 @@
+{
+    "Col" : "<div class='col-12 col-sm-6 col-lg-4 mt-5 px-sm-0 px-md-3 px-lg-2'>",
+    "Card" : "<div class='card h-100 w-100 card-border'>",
+    "Image" : "<img id='gunImageREPL' data-src='./inc/img/Guns/REPL.png' src='#' class='card-img-top p-3 lazy' alt='REPL'>",
+    "Card-body" : "<div class='card-body'>",
+    "Gun-name-color" : "<h5 class='red'>",
+    "Gun-name" : "<strong id='gunNameREPL'>REPL</strong>",
+    "End-name-body" : "</h5></div>",
+    "Table" : "<div class='table-responsive'><table class='table table-striped align-middle mb-0'><tbody>",
+    "Inner-table" : "<tr><th scope='row'>REPL</th><td>REPL</td></tr>",
+    "Table-headers" : {
+        "1" : "SERIES / MODEL",
+        "2" : "FIREARM DESCRIPTION",
+        "3" : "MSRP"
+    },
+    "Model" : "<strong>REPL<sup class='tm'>&#x2122;</sup><span class='description-REPL'>REPL</span></strong>",
+    "Msrp" : "<strong id='gunMSRPREPL' class='green'>$REPL</strong>",
+    "Cart-btn" : "<tr><td colspan='2'><button id='gunIDREPL' class='btn btn-cart'>Add to Cart</button></td></tr>",
+    "End-table-card-col" : "</tbody></table></div></div></div>"
+}

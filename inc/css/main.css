@@ -1,0 +1,561 @@
+/*	575.98 <= XS | 576 <= SM <= 767.98 | 768 <= MD <= 991.98 | 992 <= LG <= 1199.98 | 1200 >= XL */
+
+/* -------------------- Custom Fonts Define -------------------- */
+@font-face {
+    font-family: 'Rust';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/Rust.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'RobotoSlab';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/RobotoSlab.ttf") format("truetype");
+}
+
+/* -------------------- ROOT -------------------- */
+:root {
+    /* Colors */
+    --select: rgb(160 36 53 / 0.75);
+    --red: rgb(130 36 53);
+    --grn: rgb(61 113 78);
+
+    --grnLnk: rgb(91 180 119);
+    --redLnk: rgb(254 136 136);
+
+    --wht: rgb(255 255 255);
+    --gry: rgb(187 189 187);
+    --blk: rgb(0 0 0);
+
+    /* Fonts */
+    --RobotoSlab: "RobotoSlab", serif;
+    --Rust: "Rust", serif;
+}
+
+body, html {
+    height: 100%;
+    font-family: var(--RobotoSlab);
+}
+
+/* -------------------- Colors -------------------- */
+.red {
+    color: var(--red);
+}
+
+.redLnk {
+    color: var(--redLnk);
+}
+
+.grn {
+    color: var(--grn);
+}
+
+.grnLnk {
+    color: var(--grnLnk);
+}
+
+.green {
+    color: green;
+}
+
+/* -------------------- Selection -------------------- */
+::selection {
+  background: var(--select); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: var(--select); /* Gecko Browsers */
+}
+
+/* -------------------- Links -------------------- */
+a:link {
+    color: var(--grnLnk);
+    text-decoration: underline;
+}
+
+.navbar a:link,
+a.btn:link {
+    text-decoration: none;
+}
+
+a:visited, .navbar a:visited {
+    color: var(--grnLnk);
+}
+
+a:focus, .navbar a:focus {
+    color: var(--redLnk);
+}
+
+a:hover, .navbar a:hover {
+    color: var(--redLnk);
+}
+
+a:active, .navbar a:active {
+    color: var(--redLnk);
+}
+
+/* -------------------- Navbar -------------------- */
+.nav-properties {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: var(--blk);
+ }
+
+.navbar-brand {
+    font-family: var(--Rust);
+ }
+
+.navbar-nav li a {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-nav li a {
+        font-size: 0.9rem;
+    }
+}
+
+.navbar-toggler {
+    border: 2px outset var(--grn);
+}
+
+.navbar-toggler:hover {
+    background-color: rgb(187 189 187 / 0.2);
+}
+
+.navbar .bi {
+    color: var(--grn);
+}
+
+@media screen and (max-width: 767.98px) {
+
+    #navbarNavDropdown {
+        border: 3px outset var(--grnLnk);
+        background-color: rgb(0 0 0 / 0.8);
+    }
+}
+
+.dropdown-menu {
+    color: var(--grnLnk);
+    background-color: var(--blk);
+    padding: auto 4px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#cart {
+    color: var(--grnLnk);
+    font-size: 1.2rem;
+}
+
+#cart-count {
+    font-size: 1rem;
+    background: var(--grnLnk);
+    color: var(--wht);
+    padding: 1px 5px;
+    vertical-align: top;
+    margin-left: -22px;
+    margin-top: -3px;
+}
+
+#appointment-banner {
+    display: none;
+    margin-top: 55px;
+    background-color: var(--blk);
+}
+
+#appointment-banner p {
+    color: var(--grnLnk);
+}
+
+#appointment-banner span {
+    color: var(--redLnk);
+}
+
+@media screen and (max-width: 767.98px) {
+    #appointment-banner {
+        display: block;
+    }
+}
+
+/* -------------------- Footer -------------------- */
+footer {
+    background-color: var(--blk);
+    border-top: 5px solid var(--grn);
+    color: var(--grnLnk);
+    font-weight: bold;
+}
+
+.ext-links a {
+    border: 2px outset var(--grn);
+}
+
+.ext-links a:hover {
+    background-color: rgb(187 189 187 / 0.2);
+    color: var(--grn);
+}
+
+/* -------------------- Index.php -------------------- */
+#scrollToTopBtn {
+    color: var(--wht);
+    background-color: rgb(0 0 0 / 0.5);
+    position: fixed;
+    bottom: 30px;
+    right: 5px;
+    z-index: 2000;
+    display: none;
+}
+
+#about-us-bkgnd {
+    background-color: rgb(9 19 20);
+}
+
+.main-bkgnd-img {
+    background-image: url("../img/Bkgnds/FlagBkgnd.jpg");
+}
+
+.pricing {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.main-bkgnd-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    min-height: 100vh;
+    margin-top: 62px;
+}
+
+.checkoutFormat {
+    margin-top: 62px;
+    background-color: var(--gry);
+}
+
+@media screen and (max-width: 767.98px) {
+    .main-bkgnd-img,
+    .checkoutFormat {
+        margin-top: 0;
+    }
+}
+
+#logo-img {
+    width: 70%;
+    background-color: rgb(187 189 187 / 0.6);
+    border: 2px solid rgb(61 113 78);
+    border-radius: 50%;
+}
+
+#ffl-notice {
+    background-color: rgb(0 0 0 / 0.75);
+    border: 4px outset rgb(0 0 0 / 0.2);
+    font-size: 1.6rem;
+}
+
+#logo-img,
+#ffl-notice {
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@media screen and (max-width: 575.98px) {
+    .main-bkgnd-img {
+        background-image: url("../img/Bkgnds/FlagBkgndVert.jpg");
+    }
+    #logo-img {
+        width: 50%;
+    }
+    #ffl-notice {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .main-bkgnd-img {
+        background-image: url("../img/Bkgnds/FlagBkgndVert.jpg");
+    }
+    #logo-img {
+        width: 40%;
+    }
+    #ffl-notice {
+        font-size: 1.1rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    #logo-img {
+        width: 95%;
+    }
+    #ffl-notice {
+        font-size: 1.2rem;
+    }
+}
+
+hr {
+    border-top: 4px solid;
+    border-image: linear-gradient(to right, var(--gry), rgb(61 113 78) 50%) 1;
+    margin-top: -5px;
+    opacity: 1;
+}
+
+.header-size {
+    font-family: var(--Rust);
+    font-size: 3rem;
+    color: var(--grnLnk);
+}
+
+#gun-stock {
+    background-image: linear-gradient(rgb(68 3 1) 20%, var(--wht) 50%, rgb(1 0 39) 80%);
+    color: var(--wht);
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    #gun-stock {
+        font-size: 0.90rem;
+    }
+}
+
+.card-border {
+    box-shadow: 3px 3px 9px black;
+}
+
+.tm {
+    font-size: 1rem;
+}
+
+.btn-cart {
+    background-color:var(--grnLnk);
+    border:3px outset var(--gry);
+    color:var(--wht)
+}
+
+.btn-cart:hover {
+    color:var(--wht);
+    background-color:var(--red)
+}
+
+.black-text-bkgnd {
+    background-color: rgb(0 0 0 / 0.25);
+}
+
+#contact-form-main {
+    background-color: var(--blk);
+    border-top: 5px solid var(--grn);
+    scroll-snap-align: center;
+}
+
+#business-card {
+    background-color: var(--blk);
+}
+
+.business-card-back {
+    border: 6px outset rgb(255 135 135);
+}
+
+.business-card-front {
+    border: 6px outset rgb(62 113 78);
+}
+
+/* -------------------- aboutUs.php -------------------- */
+.about-us-section {
+    padding: 25vh 10%;
+    min-height: 100vh;
+    box-shadow: 0 -1px 10px rgb(0 0 0 / .7);
+    background: 50% 50% / cover;
+    position: relative;
+}
+
+#who-we-are {
+    background-image: url("../img/Bkgnds/FallForest.jpg");
+}
+
+#owner {
+    background-image: url("../img/Bkgnds/Bark.jpg");
+}
+
+#purchase-ins {
+    background-image: url("../img/Bkgnds/SpringForest.jpg");
+}
+
+.about-us {
+    padding: 1%;
+    border-radius: 15px;
+    background: rgb(50 40 38 / 0.75);
+    box-shadow: 0 0 8px rgb(0 0 0 / 0.7);
+}
+
+.photo-credits {
+    position: absolute;
+    color: var(--wht);
+    font-size: 0.45rem;
+    bottom: -1rem;
+    left: 0;
+    background-color: rgb(0 0 0 / 0.7);
+}
+
+.about-us-text,
+.about-us-subtitle {
+    color: var(--wht);
+    text-shadow: -1px  1px 2px var(--blk),
+                  1px  2px 2px var(--blk),
+                 -1px -1px 0   var(--blk),
+                 -1px -1px 0   var(--blk);
+}
+
+.about-us-title {
+    font-size: 3rem;
+    font-size: 2.8rem;
+    font-family: var(--Rust);
+    color: var(--grnLnk);
+}
+
+.about-us-subtitle {
+    font-size: 2rem;
+}
+
+.about-us-text {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 767.98px) {
+
+    .about-us-title {
+        font-size: 2.4rem;
+    }
+    .about-us-subtitle {
+        font-size: 1.6rem;
+    }
+    .about-us-text {
+        font-size: 1.1rem;
+    }
+}
+
+/* -------------------- checkout.php -------------------- */
+.gun-card {
+    background-color: white;
+}
+
+.gun-card img {
+    object-fit: cover;
+}
+
+.checkout-img-width {
+    width: 60%
+}
+
+@media screen and (max-width: 575.98px) {
+    .checkout-img-width {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .checkout-img-width {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .checkout-img-width {
+        width: 90%;
+    }
+}
+
+/* -------------------- Contact Form -------------------- */
+#contact-header{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--wht);
+    text-shadow: -2px  2px 2px #000,
+                  2px  2px 2px #000,
+                  1px -1px 2px #000,
+                 -2px -2px 2px #000
+}
+
+.contact-form {
+    padding: 10px;
+    width: 90%;
+}
+
+#contact-form .row {
+    justify-content: center;
+}
+
+#contact-form label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    scroll-behavior: smooth;
+}
+
+#contact-form input.form-control,
+#contact-form textarea.form-control {
+    background-color: var(--wht);
+    color: var(--blk);
+    border: 4px outset var(--grn);
+    border-radius: 10px;
+}
+
+#contact-form input.form-control:invalid,
+#contact-form textarea.form-control:invalid {
+    border: red solid 3px;
+}
+
+@media screen and (max-width: 575.98px) {
+    #contact-form label {
+        font-size: 1rem;
+    }
+    #contact-form input.form-control,
+    #contact-form textarea.form-control {
+        font-size: 16px;
+    }
+    #contact-header {
+        font-size: 1.4rem;
+    }
+}
+
+#comment {
+    min-height: 68px;
+    height: 68px;
+    max-height: 128px;
+}
+
+.contact-label {
+    color: var(--blk);
+    text-shadow: -1px  1px 2px var(--wht),
+                  1px  1px 2px var(--wht),
+                  1px -1px 0   var(--wht),
+                 -1px -1px 0   var(--wht);
+}
+
+.btn-contact {
+    background-color: var(--grn);
+	border: 3px outset var(--gry);
+	color: var(--wht);
+    font-weight: bold;
+}
+
+.btn-contact:hover {
+    background-color: var(--red);
+    color: var(--wht);
+}
+
+.asterisk {
+    color: var(--red);
+    font-size: 0.8rem;
+}
+
+.required {
+    font-size: 0.6rem;
+}

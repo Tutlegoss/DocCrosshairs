@@ -1,0 +1,162 @@
+{
+    "1" : {
+        "Series" : "Workhorse",
+        "Color" : "red",
+        "Img" : "Workhorse017",
+        "Name" : "WORKHORSE-017",
+        "Model" : "RIFLE",
+        "Desc" : "MODEL <strong>WORKHORSE, FORGED</strong> 7075-T6, SEMI-AUTO, <strong>16\", 5.56 NATO</strong>, 4150CM, 1:7T, MID GAS, NITRIDE BARREL, <strong>ADJUSTABLE STOCK</strong>, OPTICS READY, <strong>HARD ANODIZED BLACK</strong>",
+        "MSRP" : "1,199",
+        "Price" : 1199
+    },
+    "2" : {
+        "Series" : "Workhorse",
+        "Color" : "red",
+        "Img" : "Workhorse018",
+        "Name" : "WORKHORSE-018",
+        "Model" : "PISTOL",
+        "Desc" : "MODEL <strong>WORKHORSE, FORGED</strong> 7075-T6, SEMI-AUTO, <strong>10.5\", 5.56 NATO</strong>, 4150CM, 1:7T, CARBINE GAS, NITRIDE BARREL, <strong>ADJUSTABLE SBA3 PISTOL BRACE</strong>, OPTICS READY, <strong>HARD ANODIZED BLACK</strong>",
+        "MSRP" : "1,299",
+        "Price" : 1299
+    },
+    "3" : {
+        "Series" : "Workhorse",
+        "Color" : "red",
+        "Img" : "Workhorse017CA",
+        "Name" : "WORKHORSE-017-CA",
+        "Model" : "RIFLE-CA",
+        "Desc" : "MODEL <strong>WORKHORSE, FORGED</strong> 7075-T6, SEMI-AUTO, <strong>16\", 5.56 NATO</strong>, 4150CM, 1:7T, MID GAS, NITRIDE BARREL, <strong>ADJUSTABLE STOCK</strong>, OPTICS READY, <strong>HARD ANODIZED BLACK</strong> with MRB Conversion",
+        "MSRP" : "1,250",
+        "Price" : 1250
+    },
+    "4" : {
+        "Series" : "Workhorse",
+        "Color" : "red",
+        "Img" : "Workhorse010",
+        "Name" : "WORKHORSE-010",
+        "Model" : "PATROL CARBINE",
+        "Desc" : "MODEL <strong>WORKHORSE, FORGED</strong> 7075-T6, SEMI-AUTO, <strong>16\", 5.56 NATO</strong>, 4150CM, 1:7T, MID GAS, NITRIDE BARREL, <strong>ADJUSTABLE STOCK</strong>, AMBI CH, OPTICS READY, GREY",
+        "MSRP" : "1,499",
+        "Price" : 1499
+    },
+    "5" : {
+        "Series" : "Workhorse",
+        "Color" : "red",
+        "Img" : "Workhorse012",
+        "Name" : "WORKHORSE-012",
+        "Model" : "DEFENSE PISTOL",
+        "Desc" : "MODEL <strong>WORKHORSE, FORGED</strong> 7075-T6, SEMI-AUTO, <strong>10.5\", 5.56 NATO</strong>, 4150CM, 1:7T, CARBINE GAS, NITRIDE BARREL, <strong>ADJUSTABLE SBA3 PISTOL BRACE</strong>, AMBI CH, OPTICS READY, GREY",
+        "MSRP" : "1,599",
+        "Price" : 1599
+    },
+    "6" : {
+        "Series" : "Workhorse",
+        "Color" : "red",
+        "Img" : "Workhorse010CA",
+        "Name" : "WORKHORSE-010-CA",
+        "Model" : "PATROL CARBINE-CA",
+        "Desc" : "MODEL <strong>WORKHORSE, FORGED</strong> 7075-T6, SEMI-AUTO, <strong>16\", 5.56 NATO</strong>, 4150CM, 1:7T, MID GAS, NITRIDE BARREL, <strong>ADJUSTABLE STOCK</strong>, AMBI CH, OPTICS READY, GREY, MRB CONVERSION",
+        "MSRP" : "1,550",
+        "Price" : 1550
+    },
+    "7" : {
+        "Series" : "Workhorse",
+        "Color" : "red",
+        "Img" : "Workhorse014",
+        "Name" : "WORKHORSE-014",
+        "Model" : "SBR",
+        "Desc" : "MODEL <strong>WORKHORSE, FORGED</strong> 7075-T6, SEMI-AUTO, <strong>10.5\", 5.56 NATO</strong>, 4150CM, 1:7T, CARBINE GAS, NITRIDE BARREL, <strong>ADJUSTABLE STOCK</strong>, AMBI CH, OPTICS READY, GREY",
+        "MSRP" : "1,399",
+        "Price" : 1399
+    },
+    "8" : {
+        "Series" : "Workhorse",
+        "Color" : "red",
+        "Img" : "WorkhorseOther",
+        "Name" : "WORKHORSE-OTHER",
+        "Model" : "OTHER",
+        "Desc" : "MODEL <strong>WORKHORSE, FORGED</strong> 7075-T6, SEMI-AUTO, <strong>12.5\", 5.56 NATO</strong>, 4150CM, 1:7T, CARBINE GAS, NITRIDE BARREL, FORWARD GRIP, <strong>ADJUSTABLE SBA3 PISTOL BRACE</strong>, OPTICS READY, GREY",
+        "MSRP" : "1,399",
+        "Price" : 1399
+    },
+    "9" : {
+        "Series" : "Authority",
+        "Color" : "grn",
+        "Img" : "Authority010",
+        "Name" : "AUTHORITY-010",
+        "Model" : "ELITE",
+        "Desc" : "MODEL <strong>BAD556, BILLET</strong> 7075-T6, SEMI-AUTO, <strong>16\", .223 WYLDE</strong>, 4150CM, 1:8T, MID GAS, NITRIDE BARREL, <strong>ADJUSTABLE STOCK, AMBI CONTROLS</strong>, OPTICS READY, GREY",
+        "MSRP" : "1,699",
+        "Price" : 1699
+    },
+    "10" : {
+        "Series" : "Authority",
+        "Color" : "grn",
+        "Img" : "Authority013",
+        "Name" : "AUTHORITY-013",
+        "Model" : "ELITE PISTOL",
+        "Desc" : "MODEL <strong>BAD556, BILLET</strong> 7075-T6, SEMI-AUTO, <strong>10.5\", 5.56 NATO</strong>, 4150CM, 1:7T, CARBINE GAS, NITRIDE BARREL, <strong>ADJ. SBA3 PISTOL BRACE, AMBI CONTROLS</strong>, OPTICS READY, GREY",
+        "MSRP" : "1,750",
+        "Price" : 1750
+    },
+    "11" : {
+        "Series" : "Authority",
+        "Color" : "grn",
+        "Img" : "Authority010CA",
+        "Name" : "AUTHORITY-010-CA",
+        "Model" : "ELITE CA",
+        "Desc" : "MODEL <strong>BAD556, BILLET</strong> 7075-T6, SEMI-AUTO, <strong>16\", 5.56 NATO</strong>, 4150CM, 1:7T, MID GAS, NITRIDE BARREL, <strong>ADJUSTABLE STOCK, AMBI CONTROLS</strong>, OPTICS READY, GREY, MRB conversion",
+        "MSRP" : "1,750",
+        "Price" : 1750
+    },
+    "12" : {
+        "Series" : "Authority",
+        "Color" : "grn",
+        "Img" : "Authority014",
+        "Name" : "AUTHORITY-014",
+        "Model" : "ELITE SBR",
+        "Desc" : "MODEL <strong>BAD556, BILLET</strong> 7075-T6, SEMI-AUTO, <strong>10.5\", 5.56 NATO</strong>, 4150CM, 1:7T, CARBINE GAS, NITRIDE BARREL, <strong>ADJUSTABLE STOCK, AMBI CONTROLS</strong>, OPTICS READY, GREY, MRB conversion",
+        "MSRP" : "1,499",
+        "Price" : 1499
+    },
+    "13" : {
+        "Series" : "Xiphos",
+        "Color" : "red",
+        "Img" : "Xiphos001",
+        "Name" : "XIPHOS-001",
+        "Model" : "9",
+        "Desc" : "MODEL <strong>BAD-GS, BILLET</strong> 7075-T6, SEMI-AUTO, <strong>16\", 9X19MM</strong>, 4150 BARREL, 1:10T, GLOCK MAG LOWER, <strong>ADJUSTABLE STOCK</strong>, OPTICS READY, GREY",
+        "MSRP" : "1,599",
+        "Price" : 1599
+    },
+    "14" : {
+        "Series" : "Xiphos",
+        "Color" : "red",
+        "Img" : "Xiphos001CA",
+        "Name" : "XIPHOS-001-CA",
+        "Model" : "9-CA",
+        "Desc" : "MODEL <strong>BAD-GS, BILLET</strong> 7075-T6, SEMI-AUTO, <strong>16\", 9X19MM</strong>, 4150 BARREL, 1:10T, GLOCK MAG LOWER, <strong>ADJUSTABLE STOCK</strong>, OPTICS READY, GREY, MRB conversion",
+        "MSRP" : "1,650",
+        "Price" : 1650
+    },
+    "15" : {
+        "Series" : "Xiphos",
+        "Color" : "red",
+        "Img" : "Xiphos004",
+        "Name" : "XIPHOS-004",
+        "Model" : "9P",
+        "Desc" : "MODEL <strong>BAD-GS, BILLET</strong> 7075-T6, SEMI-AUTO, <strong>8\", 9X19MM</strong>, 4150 BARREL, 1:10T, GLOCK MAG LOWER, <strong>ADJUSTABLE SBA3 PISTOL BRACE</strong>, OPTICS READY, GREY",
+        "MSRP" : "1,599",
+        "Price" : 1599
+    },
+    "16" : {
+        "Series" : "Oip",
+        "Color" : "grn",
+        "Img" : "Oip002",
+        "Name" : "OIP-002",
+        "Model" : "GEN 2 ULTRALIGHT",
+        "Desc" : "MODEL <strong>OIP, BILLET</strong> 7075-T6, SEMI-AUTO, <strong>14.5\" (PIN/WELD 16\"+) 5.56 NATO</strong>, 4150CM BARREL, 1:8T, <strong>FIXED STOCK</strong>, TI & CARBON FIBER COMPONENTS, OPTICS READY, ULTRALIGHT 3.8LBS, BLK",
+        "MSRP" : "3,290",
+        "Price" : 3290
+    }
+}

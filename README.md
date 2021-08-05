@@ -1,2 +1,2 @@
 # DocCrosshairs
-Firearms website for an authorized dealer.
+Website for local firearms business

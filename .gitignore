@@ -1,0 +1,7 @@
+pdoconfig.php
+.htaccess
+.well-known/
+error_log
+404.shtml
+indexOld.html
+layout-styles.css
